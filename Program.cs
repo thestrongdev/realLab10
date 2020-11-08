@@ -76,8 +76,9 @@ namespace theRealLab10
             string userChoice = Console.ReadLine();
             Console.WriteLine();
 
-            var keys = categories.Keys;
-            var values = categories.Values;
+            //realized I didn't need the below....
+            //var keys = categories.Keys;
+            //var values = categories.Values;
 
             if(categories.ContainsKey(userChoice) || categories.ContainsValue(userChoice))
             {
